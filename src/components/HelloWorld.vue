@@ -9,7 +9,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="title">{{ msg }}</h1>
 
   <p>
     Recommended IDE setup:
@@ -34,6 +34,9 @@ const count = ref(0)
 </template>
 
 <style scoped>
+.title {
+  color: var(--sidebar_color);
+}
 a {
   color: #42b983;
 }
